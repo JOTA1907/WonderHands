@@ -1,0 +1,12 @@
+{
+  "marca": "WonderHands",
+  "whatsapp": "",
+  "moneda": "PEN",
+  "modoMuestra": true,
+  "productos": [
+    {"id":"nube","nombre":"Nube","tipo":"Cárdigan","descripcion":"Propuesta de cárdigan abierto, con silueta relajada, mangas amplias y bordes acanalados en tono marfil.","precio":189,"aprobado":false,"ofrecible":false,"imagenes":[{"src":"./imagenes/productos/nube-concepto.jpg","alt":"Imagen conceptual de un cárdigan marfil abierto, con mangas amplias y bordes acanalados","conceptual":true}],"variantes":[{"opciones":{"Talla":"S","Color":"Marfil"},"disponible":true},{"opciones":{"Talla":"M","Color":"Marfil"},"disponible":true}]},
+    {"id":"raiz","nombre":"Raíz","tipo":"Suéter","descripcion":"Propuesta de suéter de cuello redondo y forma holgada, con un panel vertical de relieve en el frente y tono verde salvia.","precio":169,"aprobado":false,"ofrecible":false,"imagenes":[{"src":"./imagenes/productos/raiz-concepto.jpg","alt":"Imagen conceptual de un suéter verde salvia de cuello redondo y relieve vertical central","conceptual":true}],"variantes":[{"opciones":{"Talla":"S","Color":"Verde salvia"},"disponible":true},{"opciones":{"Talla":"M","Color":"Verde salvia"},"disponible":true}]},
+    {"id":"trama","nombre":"Trama","tipo":"Chaleco","descripcion":"Propuesta de chaleco recto en tono cacao, con escote en V y un relieve geométrico discreto.","precio":139,"aprobado":false,"ofrecible":false,"imagenes":[{"src":"./imagenes/productos/trama-concepto.jpg","alt":"Imagen conceptual de un chaleco cacao de escote en V y textura geométrica","conceptual":true}],"variantes":[{"opciones":{"Talla":"S","Color":"Cacao"},"disponible":true},{"opciones":{"Talla":"M","Color":"Cacao"},"disponible":true}]},
+    {"id":"alba","nombre":"Alba","tipo":"Top","descripcion":"Propuesta de top tejido en tono arcilla, con tirantes anchos, escote cuadrado y textura de líneas verticales.","precio":119,"aprobado":false,"ofrecible":false,"imagenes":[{"src":"./imagenes/productos/alba-concepto.jpg","alt":"Imagen conceptual de un top arcilla con tirantes anchos, escote cuadrado y textura vertical","conceptual":true}],"variantes":[{"opciones":{"Talla":"S","Color":"Arcilla"},"disponible":true},{"opciones":{"Talla":"M","Color":"Arcilla"},"disponible":true}]}
+  ]
+}

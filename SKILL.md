@@ -14,7 +14,7 @@ Los requisitos expresos del usuario prevalecen sobre este documento. Nunca reuti
 ## Orden de trabajo
 
 1. Lee 00-entorno.md y comprueba el contenido real de la carpeta.
-2. Usa 01-conexion-y-sondeo.md para reunir los datos indispensables. Propón conceptos de prendas para revisión; no conviertas una propuesta en característica comercial confirmada. Antes de implementar, presenta las carencias concretas al usuario.
+2. Usa 01-conexion-y-sondeo.md para reunir los datos indispensables. La primera propuesta está en PROPUESTA-CONCEPTOS.md y sigue pendiente de revisión. No conviertas una propuesta en característica comercial confirmada. Antes de implementar, presenta las carencias concretas al usuario.
 3. Sigue 03-lectura-de-referencias.md para definir la dirección visual a partir de la marca y de las imágenes que se generen. Usa 04-brief-y-propuesta.md para ordenar la página.
 4. Prepara la estructura estática de 02-proyecto-tema.md. Implementa las secciones con 05-secciones-personalizadas.md, el catálogo con 07-catalogo-producto-y-paginas.md y los bloques pertinentes de 11-catalogo-bloques-moda.md.
 5. Usa 06-fotos-ia-moda.md para planear imágenes generadas con IA a partir de conceptos aprobados. Mantén una representación coherente de cada prenda y distingue la imagen conceptual de una fotografía del producto final.

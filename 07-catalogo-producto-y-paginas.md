@@ -2,14 +2,14 @@
 
 ## Objetivo
 
-Mostrar los productos reales de WonderHands con fotos, descripciones, precios y variantes disponibles. Cada producto tiene una acción que abre el WhatsApp de la marca con un mensaje predefinido. No hay carrito ni pago en la web.
+Mostrar los productos aprobados de WonderHands con imágenes generadas por IA, descripciones, precios y variantes confirmadas. Cada producto disponible para consulta tiene una acción que abre el WhatsApp de la marca con un mensaje predefinido. No hay carrito ni pago en la web.
 
 ## Fuente única de datos
 
 Mantén la configuración pública y los productos en datos/catalogo.json. Estructura prevista:
 
 - Configuración: nombre de marca, número de WhatsApp en formato internacional de solo dígitos, moneda y, si procede, texto de presentación confirmado.
-- Producto: id estable, nombre, descripción, precio numérico confirmado, imágenes locales, texto alternativo de cada imagen y variantes.
+- Producto: id estable, nombre, descripción y posibilidad de elaboración o venta confirmadas, precio numérico confirmado, imágenes de IA aprobadas, texto alternativo de cada imagen y variantes.
 - Variante: conjunto de opciones (por ejemplo Talla y Color), disponibilidad confirmada y precio propio solo cuando difiera del precio principal.
 
 La implementación debe validar campos obligatorios y evitar publicar datos de ejemplo. Si no hay variantes, la ficha no muestra un selector vacío. Si existen, los valores se derivan de combinaciones reales. Un nombre de archivo de imagen se registra una sola vez por producto y se reutiliza en tarjeta y galería.
@@ -20,7 +20,7 @@ La tarjeta muestra imagen principal, nombre, precio con la moneda correcta y un 
 
 ## Ficha de producto
 
-- Galería de fotos reales; funciona con una foto o con varias.
+- Galería de imágenes generadas aprobadas; funciona con una o con varias. Identifica las imágenes como conceptuales o ilustrativas mientras no exista una fotografía fiel del producto final.
 - Nombre, precio y descripción fieles al catálogo.
 - Selectores de talla, color u otra opción solo cuando existan.
 - Selección clara de la combinación disponible. Si una variante tiene un precio distinto, actualiza el precio visible.

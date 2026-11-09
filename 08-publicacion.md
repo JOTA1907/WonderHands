@@ -4,7 +4,7 @@
 
 1. Verifica que la carpeta publicable contiene index.html, CSS, JavaScript, catálogo e imágenes referenciadas.
 2. Comprueba que no entraron archivos privados, copias del material original, claves ni el respaldo de las guías antiguas.
-3. Revisa productos, precios, moneda, fotos, variantes y número de WhatsApp contra lo confirmado por el usuario.
+3. Revisa diseños aprobados, imágenes de IA, descripciones, posibilidad de venta, precios, moneda, variantes y número de WhatsApp contra lo confirmado por el usuario. Identifica las imágenes conceptuales cerca de la galería.
 4. Abre la web mediante un servidor HTTP local y prueba escritorio y celular.
 5. Prueba la web también bajo una ruta con prefijo de repositorio, porque un sitio de proyecto se sirve desde /repositorio/. Todas las rutas internas deben ser relativas.
 6. Revisa cada enlace de WhatsApp y el mensaje codificado. Abrir el chat no envía automáticamente el mensaje.

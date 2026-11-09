@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Reunir solo la información que hace posible mostrar productos reales y preparar el mensaje de compra. No existe una conexión a Shopify ni una lectura automática de productos.
+Reunir la información para proponer diseños, convertir los aprobados en productos que WonderHands pueda ofrecer y preparar el mensaje de compra. No existe una conexión a Shopify ni una lectura automática de productos.
 
 ## Inventario previo
 

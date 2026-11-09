@@ -7,9 +7,9 @@ Crear una interfaz atractiva, adaptable y fácil de mantener con HTML, CSS y Jav
 ## Componentes
 
 - Cabecera: marca, enlace al catálogo y contacto.
-- Apertura: mensaje de la marca e imagen aprobada, con alternativa tipográfica si no hay foto apropiada.
+- Apertura: mensaje de la marca e imagen generada aprobada, con alternativa tipográfica si aún no hay imagen apropiada.
 - Catálogo: tarjetas con foto, nombre, precio y enlace a la ficha.
-- Vista de producto: galería, descripción, precio, variantes y acción Consultar por WhatsApp.
+- Vista de producto: galería, aviso de imagen conceptual cuando corresponda, descripción, precio, variantes y acción Consultar por WhatsApp.
 - Bloque artesanal: texto confirmado por el usuario, sin hechos añadidos.
 - Pie: contacto y enlaces relevantes.
 
@@ -21,7 +21,7 @@ Usa solo los componentes que tengan contenido real. El catálogo se pinta desde 
 - Usa retículas fluidas y tamaños de texto con límites; evita anchos fijos que provoquen desplazamiento horizontal.
 - Mantén botones y selectores fáciles de tocar en celular.
 - Reserva el espacio de cada foto con aspect-ratio o dimensiones declaradas para reducir saltos de página.
-- Para fotos de prendas, usa object-fit: contain cuando un recorte ocultaría detalles; object-fit: cover solo si el encuadre fue revisado.
+- Para imágenes de prendas, usa object-fit: contain cuando un recorte ocultaría detalles; object-fit: cover solo si el encuadre fue revisado.
 - El texto sobre una imagen necesita contraste suficiente. Si una foto no deja espacio legible, coloca el texto fuera de ella.
 - El color de fondo y los espaciados de cada sección deben formar una transición visual coherente.
 
@@ -32,7 +32,7 @@ Usa encabezados en orden, enlaces y botones con nombres claros, etiquetas de for
 ## Comportamiento
 
 - Carga el catálogo una vez y muestra un aviso comprensible si no puede cargarse.
-- No inventes tarjetas de ejemplo en la página publicada.
+- No conviertas los diseños propuestos en tarjetas de venta hasta que el usuario apruebe la imagen y confirme los datos comerciales.
 - Cuando cambie una variante, actualiza el precio mostrado si el catálogo incluye precio particular y prepara el mensaje de WhatsApp con la selección actual.
 - Si una combinación no existe o está marcada como no disponible, no ofrezcas su consulta como compra de esa variante.
 - El botón de WhatsApp se genera con el número y datos del catálogo, nunca con un mensaje fijo separado que pueda quedar desactualizado.

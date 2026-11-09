@@ -2,7 +2,7 @@
 
 ## Cambios del usuario
 
-Una corrección sobre precio, variante o foto se aplica en la fuente única de datos y en el archivo de imagen correspondiente. Después se verifica la tarjeta, la ficha y el enlace de WhatsApp. Anota en el README cualquier regla de mantenimiento que haya cambiado.
+Una corrección sobre precio o variante se aplica en la fuente única de datos. Una corrección de diseño puede exigir regenerar las imágenes relacionadas para mantener coherencia. Después se verifica la tarjeta, la ficha y el enlace de WhatsApp. Anota en el README cualquier regla de mantenimiento que haya cambiado.
 
 ## Diseño adaptable
 
@@ -14,10 +14,12 @@ Una corrección sobre precio, variante o foto se aplica en la fuente única de d
 
 ## Fotografías
 
-- La foto principal debe mostrar la prenda completa o su parte más relevante de manera inequívoca.
+- La imagen principal generada debe mostrar el diseño completo o su parte más relevante de manera inequívoca.
 - Revisa recortes en tarjetas y portada tanto en escritorio como en celular.
 - Mantén texto alternativo útil y nombres de archivo legibles.
 - Optimiza dimensiones y peso, conservando una calidad suficiente para apreciar tejido y detalles.
+- Revisa que todas las vistas de una prenda mantengan la misma silueta, patrón, color y detalles aprobados.
+- Identifica las imágenes conceptuales; no las presentes como prueba de una prenda física o de un proceso de fabricación.
 
 ## Catálogo
 
@@ -43,4 +45,4 @@ Una corrección sobre precio, variante o foto se aplica en la fuente única de d
 
 ## Criterios para terminar
 
-La web muestra productos reales, sus datos coinciden con el material confirmado, las variantes funcionan, los mensajes de WhatsApp son precisos, la versión móvil es usable y las rutas cargan bajo el prefijo de GitHub Pages. Entrega instrucciones de actualización breves para la persona que mantendrá el catálogo.
+La web muestra diseños aprobados que WonderHands confirmó que puede ofrecer, sus datos coinciden con el catálogo comercial confirmado, las imágenes conceptuales se identifican, las variantes funcionan, los mensajes de WhatsApp son precisos, la versión móvil es usable y las rutas cargan bajo el prefijo de GitHub Pages. Entrega instrucciones de actualización breves para la persona que mantendrá el catálogo.

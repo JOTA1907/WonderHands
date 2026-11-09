@@ -1,28 +1,28 @@
 ﻿# Fase 11 — Bloques visuales útiles para WonderHands
 
-Este catálogo sustituye la lista de 72 arquetipos orientados a streetwear. Elige solo bloques que ayuden a conocer prendas reales y el trabajo artesanal de la marca.
+Este catálogo sustituye la lista de 72 arquetipos orientados a streetwear. Elige solo bloques que ayuden a conocer los diseños aprobados y el carácter artesanal de la marca.
 
 ## Apertura
 
-- Fotografía de una prenda o detalle real con espacio suficiente para texto; alternativa: apertura tipográfica con WonderHands y una frase aprobada.
+- Imagen generada de un diseño aprobado, con espacio suficiente para texto; alternativa: apertura tipográfica con WonderHands y una frase aprobada.
 - Un enlace visible hacia el catálogo. Evita una foto de ambiente que pueda parecer un producto diferente.
 
 ## Catálogo
 
-- Retícula de tarjetas que muestre foto clara, nombre, precio y acceso a la ficha.
+- Retícula de tarjetas que muestre la imagen generada aprobada, nombre, precio y acceso a la ficha.
 - Filtros por categoría o tipo únicamente si hay suficientes productos y esos datos existen.
 - En un catálogo pequeño, muestra todos los productos sin obligar a usar filtros.
 
 ## Producto
 
-- Galería de vistas de la misma prenda. Mantén el color real y permite ver detalles del tejido.
+- Galería de vistas coherentes del mismo diseño. Mantén el color y patrón aprobados e identifica las imágenes como conceptuales cuando corresponda.
 - Selectores de variantes disponibles. El botón de WhatsApp queda cerca del precio y de la selección.
 - Información adicional como medidas, materiales o cuidados solo cuando se haya proporcionado.
 
 ## Marca
 
 - Breve texto sobre el carácter artesanal. Si el usuario aporta una historia de WonderHands o del proceso, puede convertirse en una sección propia.
-- Fotografía de manos o proceso solo si es material real de la marca y se permite publicarlo.
+- Imágenes de manos o proceso únicamente si representan fielmente algo que WonderHands realmente hace; una escena de IA no prueba el proceso.
 - No muestres testimonios, cifras de ventas, sellos, descuentos o promesas de entrega sin respaldo.
 
 ## Cierre

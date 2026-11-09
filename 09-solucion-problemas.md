@@ -31,6 +31,13 @@ Consulta esta guía cuando una comprobación concreta falle. Registra el síntom
 - Muestra el precio de la variante si difiere del precio principal.
 - Si faltan datos, detén esa acción y señala la carencia. No completes combinaciones ni precios por deducción.
 
+## Las imágenes de IA parecen productos diferentes
+
+- Compara cada imagen con la ficha visual aprobada: cuello, silueta, patrón, color y detalles.
+- Usa una imagen principal aprobada como referencia al generar vistas adicionales.
+- Rechaza errores de anatomía, tejido o accesorios que cambien entre vistas.
+- Si no se puede representar la prenda de forma coherente, usa la imagen solo como pieza editorial y no como vista comercial.
+
 ## Problemas visuales
 
 - Desplazamiento horizontal en celular: revisa anchos fijos, imágenes y elementos decorativos.

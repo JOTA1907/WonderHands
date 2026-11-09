@@ -23,7 +23,7 @@ Cada entrada de productos contiene:
 - nombre: nombre confirmado de la prenda.
 - descripcion: información que el usuario proporcionó o aprobó.
 - precio: número confirmado en la moneda global; si se muestra un precio distinto por variante, regístralo en esa variante.
-- imagenes: lista de objetos con src relativo a docs/ y alt descriptivo. La primera es la foto principal.
+- imagenes: lista de objetos con src relativo a docs/ y alt descriptivo. La primera es la imagen principal generada y aprobada; registra que es conceptual mientras no haya una foto del producto final.
 - variantes: lista de combinaciones reales. Cada combinación tiene opciones como objeto de pares nombre/valor; puede llevar precio específico y disponible si el usuario confirmó ese estado. Cuando no hay opciones, usa una lista vacía y el precio del producto.
 
 No crees automáticamente el producto cartesiano de tallas y colores: podrían existir combinaciones que la marca no ofrece. La interfaz debe derivar las opciones de las combinaciones registradas.
@@ -34,7 +34,7 @@ Antes de mostrar o publicar:
 
 1. La marca, WhatsApp y moneda existen; WhatsApp contiene solo dígitos y se confirmó que recibe mensajes.
 2. Cada id es único, cada precio es un número válido y mayor o igual que cero solo si ese cero fue confirmado como precio real. Un campo ausente es distinto de cero.
-3. Cada producto tiene nombre, descripción y al menos una imagen existente.
+3. Cada producto tiene nombre, descripción comercial aprobada, confirmación de que puede ofrecerse y al menos una imagen generada aprobada.
 4. Los nombres de opción se escriben de forma consistente entre variantes del mismo producto.
 5. No hay combinaciones duplicadas ni opciones vacías.
 6. Si disponible es false, la interfaz informa que esa combinación no se ofrece actualmente y evita abrir la consulta como si fuera elegible.
