@@ -4,7 +4,7 @@ La web está lista para servirse desde `docs/` en GitHub Pages. No necesita comp
 
 ## Estado de esta versión
 
-Los cuatro diseños, sus imágenes generadas con IA, textos, tallas y precios son **muestras sintéticas** creadas para revisar la web. No describen productos confirmados. Por eso `modoMuestra` es `true`, cada producto tiene `aprobado: false` y `ofrecible: false`, y los enlaces de consulta por WhatsApp están desactivados. Las imágenes se identifican como conceptuales en la ficha.
+Los 40 diseños y sus imágenes son **propuestas visuales** creadas para revisar la web. Hay colecciones de Mujer, Hombre y Niños. Dentro de Niños están Niño, Niña y Bebé, cada uno con Invierno y Verano. Cada vista muestra cuatro prendas. No describen productos confirmados. Los precios y tallas del catálogo son ejemplos. `modoMuestra` es `true` y cada producto tiene `aprobado: false` y `ofrecible: false`. Las fichas permiten enviar una consulta por WhatsApp después de elegir talla, sin afirmar disponibilidad ni precio final. El contacto general por WhatsApp también está activo. Las imágenes se identifican como referencias visuales en la ficha.
 
 ## Probar localmente
 
@@ -31,6 +31,8 @@ Edita `datos/catalogo.json` y conserva esta estructura:
       "id": "identificador-estable",
       "nombre": "Nombre confirmado",
       "tipo": "Tipo de prenda",
+      "categoria": "Mujer",
+      "temporada": "Invierno",
       "descripcion": "Descripción confirmada",
       "precio": 100,
       "aprobado": true,
@@ -49,7 +51,7 @@ Edita `datos/catalogo.json` y conserva esta estructura:
 
 Sustituye el marcador por el número real de WonderHands con código de país, solo dígitos, y comprueba que recibe mensajes. `moneda` debe ser el código ISO confirmado. Cada variante es una combinación real; no se generan todas las combinaciones posibles. Si una prenda no tiene variantes, usa `"variantes": []`. Para un producto aprobado, fija `modoMuestra: false`, `aprobado: true` y `ofrecible: true` solo después de verificar nombre, descripción, precio, imágenes y disponibilidad. Si una imagen sigue siendo conceptual, conserva `"conceptual": true`.
 
-Las tarjetas y fichas leen el mismo archivo; no dupliques precios ni descripciones en `index.html`. Coloca las imágenes dentro de `imagenes/productos/`, con nombres legibles y comprimidas. No cambies el `id` de un producto publicado porque forma parte de su enlace y del mensaje de WhatsApp.
+Las tarjetas y fichas leen el mismo archivo; no dupliques precios ni descripciones en `index.html`. Cada producto debe tener `categoria` (`Mujer`, `Hombre` o `Niños`) y `temporada` (`Invierno` o `Verano`). Los productos de `Niños` también deben tener `subcategoria` (`Niño`, `Niña` o `Bebé`). Los menús del encabezado filtran por sección, subsección y temporada, y conservan la selección en la URL. Coloca las imágenes dentro de `imagenes/productos/`, con nombres legibles y comprimidas. No cambies el `id` de un producto publicado porque forma parte de su enlace y del mensaje de WhatsApp.
 
 ## Verificar antes de publicar
 
@@ -59,4 +61,4 @@ Las tarjetas y fichas leen el mismo archivo; no dupliques precios ni descripcion
 4. Prueba la web bajo una ruta con prefijo como `/WonderHands/`, no solo en la raíz del servidor. Todas las rutas de recursos son relativas.
 5. En GitHub, publica la carpeta `/docs` de la rama principal en **Settings → Pages → Deploy from a branch**.
 
-Las imágenes de muestra están en `imagenes/productos/`. Fueron generadas con la herramienta integrada de imágenes a partir de los conceptos Nube, Raíz, Trama y Alba de `PROPUESTA-CONCEPTOS.md`; no representan prendas físicas verificadas.
+Las imágenes de muestra están en `imagenes/productos/`. Las cuatro imágenes iniciales se documentan en `IMAGENES-CONCEPTUALES.md`, las cuatro de verano para Mujer en `VERANO-CONCEPTOS.md`, las veinte anteriores de Hombre, Niño y Bebé en `HOMBRE-NINO-BEBE-CONCEPTOS.md` y las doce nuevas de Niña y Bebé en `NINA-Y-BEBE-CONCEPTOS.md`; no representan prendas físicas verificadas. Los conceptos sin precio pueden usar `"precio": null` únicamente mientras `aprobado` y `ofrecible` sean `false`. `consultaConceptual: true` habilita la consulta de una propuesta aunque el catálogo siga en modo muestra; el mensaje indica que el precio mostrado es referencial y pide confirmar la disponibilidad.

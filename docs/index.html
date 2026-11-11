@@ -16,8 +16,40 @@
     <header class="site-header" id="inicio">
       <a class="wordmark" href="./index.html" aria-label="WonderHands, ir al inicio">Wonder<span>Hands</span><span class="wordmark-star" aria-hidden="true">✳</span></a>
       <nav aria-label="Navegación principal">
-        <a href="#coleccion">Colección</a>
-        <a href="#sobre">WonderHands</a>
+        <details class="category-nav" data-nav-category="Mujer">
+          <summary>Mujer <span class="category-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="category-menu" role="group" aria-label="Colección de mujer">
+            <button type="button" data-category="Mujer" data-season="Invierno" aria-pressed="true">Invierno</button>
+            <button type="button" data-category="Mujer" data-season="Verano" aria-pressed="false">Verano</button>
+          </div>
+        </details>
+        <details class="category-nav" data-nav-category="Hombre">
+          <summary>Hombre <span class="category-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="category-menu" role="group" aria-label="Colección de hombre">
+            <button type="button" data-category="Hombre" data-season="Invierno" aria-pressed="false">Invierno</button>
+            <button type="button" data-category="Hombre" data-season="Verano" aria-pressed="false">Verano</button>
+          </div>
+        </details>
+        <details class="category-nav" data-nav-category="Niños">
+          <summary>Niños <span class="category-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="category-menu category-menu-children" aria-label="Colecciones para niños">
+            <div class="category-menu-section" role="group" aria-label="Niño">
+              <p>Niño</p>
+              <button type="button" data-category="Niños" data-subcategory="Niño" data-season="Invierno" aria-label="Niño, invierno" aria-pressed="false">Invierno</button>
+              <button type="button" data-category="Niños" data-subcategory="Niño" data-season="Verano" aria-label="Niño, verano" aria-pressed="false">Verano</button>
+            </div>
+            <div class="category-menu-section" role="group" aria-label="Niña">
+              <p>Niña</p>
+              <button type="button" data-category="Niños" data-subcategory="Niña" data-season="Invierno" aria-label="Niña, invierno" aria-pressed="false">Invierno</button>
+              <button type="button" data-category="Niños" data-subcategory="Niña" data-season="Verano" aria-label="Niña, verano" aria-pressed="false">Verano</button>
+            </div>
+            <div class="category-menu-section" role="group" aria-label="Bebé">
+              <p>Bebé</p>
+              <button type="button" data-category="Niños" data-subcategory="Bebé" data-season="Invierno" aria-label="Bebé, invierno" aria-pressed="false">Invierno</button>
+              <button type="button" data-category="Niños" data-subcategory="Bebé" data-season="Verano" aria-label="Bebé, verano" aria-pressed="false">Verano</button>
+            </div>
+          </div>
+        </details>
         <a class="nav-contact" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
@@ -49,8 +81,8 @@
       <section class="collection section-pad" id="coleccion" aria-labelledby="collection-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow"><span class="eyebrow-line"></span> LA COLECCIÓN</p>
-            <h2 id="collection-title">Cada prenda tiene<br>su <em>propia forma.</em></h2>
+            <p class="eyebrow"><span class="eyebrow-line"></span> <span id="collection-context">MUJER / INVIERNO</span></p>
+            <h2 id="collection-title" tabindex="-1">Cada prenda tiene<br>su <em>propia forma.</em></h2>
           </div>
           <p>Una exploración inicial de formas y texturas. Las imágenes, variantes y cifras son propuestas sujetas a revisión.</p>
         </div>
@@ -65,7 +97,7 @@
           <span class="catalog-state-index" aria-hidden="true">W / H</span>
         </div>
         <div id="catalogo-grid" class="product-grid" hidden></div>
-        <p id="catalogo-nota" class="catalog-note" hidden>Esta es una muestra conceptual: diseños, imágenes, tallas y precios son provisionales. Aún no son productos disponibles para comprar.</p>
+        <p id="catalogo-nota" class="catalog-note" hidden>Esta es una muestra conceptual. Las imágenes representan propuestas, no prendas existentes; los precios y variantes que aparecen son ejemplos. Aún no son productos disponibles para comprar.</p>
       </section>
 
       <section class="about section-pad" id="sobre" aria-labelledby="about-title">
@@ -103,7 +135,7 @@
         <div class="dialog-media">
           <div class="dialog-main-image"><img id="dialogo-imagen" alt=""></div>
           <div id="dialogo-miniaturas" class="thumbnails" aria-label="Imágenes del producto"></div>
-          <p id="dialogo-imagen-nota" class="image-note" hidden>Imagen conceptual generada con IA. El producto final puede variar.</p>
+          <p id="dialogo-imagen-nota" class="image-note" hidden>Imagen de referencia para este diseño. La prenda final puede variar.</p>
         </div>
         <div class="dialog-info">
           <p class="eyebrow">WONDERHANDS / COLECCIÓN</p>
